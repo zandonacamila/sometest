@@ -35,18 +35,20 @@
         </section>
 
         <section class="list">
-            <h1 class="d-flex justify-content-center">ToDoList</h1>
             <div id="inputSection">
+                <h1 class="d-flex justify-content-center">ToDoList</h1>
                 <input type="text" class="container" placeholder="Digite aqui sua tarefa" id="listInput">
                 <button id="addInput" class="btn btn-secondary">Add</button>
             </div>
-            <ul class="list-group d-flex justify-content-center" id="ulContent">
-                <li class="list-group-item justify-content-center">Roupas</li>
-                <li class="list-group-item justify-content-center">Acessórios</li>
-                <li class="list-group-item justify-content-center">Comida</li>
-                <li class="list-group-item justify-content-center">Bagagem</li>
-                <li class="list-group-item justify-content-center">Livros</li>
+
+            <ul class="list-group" id="ulContent">
+                <li class="list-group-item justify-content-center"><input class="checkbox" type="checkbox">Roupas</li>
+                <li class="list-group-item justify-content-center"><input class="checkbox" type="checkbox">Acessórios</li>
+                <li class="list-group-item justify-content-center"><input class="checkbox" type="checkbox">Comida</li>
+                <li class="list-group-item justify-content-center"><input class="checkbox" type="checkbox">Bagagem</li>
+                <li class="list-group-item justify-content-center"><input class="checkbox" type="checkbox">Livros</li>
             </ul>
+        </input>
         </section>
         
 
@@ -56,6 +58,8 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/models/listModel.js"></script>
+    <script src="js/view/ListView.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>

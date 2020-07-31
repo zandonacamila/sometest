@@ -33,8 +33,8 @@ function addItemToList(event) {
     
     const li = document.createElement("li")
     const inputValue = $("#listInput").val();
+    const cell = document.createTextNode(inputValue);
 
-    li.textContent = inputValue;
-    $("#ulContent").append(li);
+    $("#ulContent").append(cell);
 
 }

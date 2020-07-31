@@ -45,15 +45,17 @@ header nav {
     background-color: aqua;
 }
 
-.list h1 {
-    background-color: aqua;
-}
-
 #inputSection {
+    background-color: aqua;
     width: 100%;
     display: flex;
 }
 
 #addInput {
     width: 30%;
+    border-radius: 0;
+}
+
+ul .clicked {
+    background-color: aqua;
 }
