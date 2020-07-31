@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+</head>
+<body>
+    <header class="container welcome">
+        <h1>Good morning, Vietnam.</h1> 
+
+        <nav>
+            <button type="button" class=" btn btn-primary" id="cantoEsquerdo">Clica em mim</button>
+            <button type="button" class=" btn btn-danger" id="meio">Clica em mim, depois</button>
+            <button type="button" class=" btn btn-success" id="cantoDireito">Ok, pode clicar em mim por último</button>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="container tudoh">
+            <div class="container morning" id="left">
+                <div class="col-align-self-start"></div>
+            </div>
+            <div class="container afternoon" id="middle">
+                <div class="col-align-self-start"></div>
+            </div>
+            <div class="container night" id="right">
+                <div class="col-align-self-start"></div>
+            </div>
+        </section>
+
+        <section class="list">
+            <h1 class="d-flex justify-content-center">ToDoList</h1>
+            <div id="inputSection">
+                <input type="text" class="container" placeholder="Digite aqui sua tarefa" id="listInput">
+                <button id="addInput" class="btn btn-secondary">Add</button>
+            </div>
+            <ul class="list-group d-flex justify-content-center" id="ulContent">
+                <li class="list-group-item justify-content-center">Roupas</li>
+                <li class="list-group-item justify-content-center">Acessórios</li>
+                <li class="list-group-item justify-content-center">Comida</li>
+                <li class="list-group-item justify-content-center">Bagagem</li>
+                <li class="list-group-item justify-content-center">Livros</li>
+            </ul>
+        </section>
+        
+
+    </main>
+
+    
+
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
