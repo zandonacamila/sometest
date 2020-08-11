@@ -52,12 +52,8 @@ function newElement() {
 }
 
 
-
-
-
-
-
-/* const leftButton = $("#cantoEsquerdo")
+// Changing colors feature
+const leftButton = $("#cantoEsquerdo")
 const middleButton = $("#meio");
 const rightButton = $("#cantoDireito");
 const addToList = $("#addInput");
@@ -85,7 +81,7 @@ function addClassNameRight() {
     
     $("#right").toggleClass("hidden");
 }
-
+/* 
 function addItemToList(event) {
 
     event.preventDefault;
@@ -96,5 +92,5 @@ function addItemToList(event) {
 
     $("#ulContent").append(cell);
 
-} */
+}  */
 
