@@ -1,4 +1,4 @@
-class ListView {
+/* class ListView {
 
     constructor (list, item, input) {
         
@@ -14,4 +14,4 @@ class ListView {
             <li class="list-group-item justify-content-center"><input class="checkbox" type="checkbox">${input}</li>
         </ul>`
     }
-}
+} */

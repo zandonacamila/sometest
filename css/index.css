@@ -48,7 +48,22 @@ header nav {
 #inputSection {
     background-color: aqua;
     width: 100%;
+    display: block;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.inputArea {
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#listInput {
+    width: 70%;
+    height: 38px;
 }
 
 #addInput {
@@ -56,6 +71,11 @@ header nav {
     border-radius: 0;
 }
 
+#ulContent li:hover {
+    background-color: #D4D4D4;
+    cursor: pointer;
+}
+
 ul .clicked {
-    background-color: aqua;
+    background-color: rgb(6, 128, 128);
 }
